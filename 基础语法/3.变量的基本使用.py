@@ -5,3 +5,4 @@ name = "张三"
 # 输出变量
 print(age)
 print(name)
+

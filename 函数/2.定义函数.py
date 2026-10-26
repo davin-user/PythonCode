@@ -28,14 +28,14 @@ if age >= 18:
 
 
 # 3.参数检查
-# 3.1 如果调用函数时，参数个数不对，Python解释器会自动检查出来，并抛出TyperError错误
+# 3.1 如果调用函数时，参数个数不对，Python解释器会自动检查出来，并抛出TypeError错误
 
 # print(my_abs(age, 19))  # TypeError: my_abs() takes 1 positional argument but 2 were given
 
 # 3.2 如果调用函数时，如果参数类型不对，则定义的函数Python解释器无法检查，但是内置函数就可以
 
-# print(my_abs('123'))  # 什么也不会输出
-# print(abs('123'))  # TypeError: '>=' not supported between instances of 'str' and 'int'
+# print(my_abs('123'))  # TypeError: '>=' not supported between instances of 'str' and 'int'
+# print(abs('123'))  # TypeError: bad operand type for abs(): 'str'
 
 
 # 完善当前的绝对值函数

@@ -10,7 +10,7 @@ print(test_a)
 
 
 # test_c = abs('abx')
-# print(test_c)  # TypeError: abs() takes exactly one argument (2 given)
+# print(test_c)  # TypeError: bad operand type for abs(): 'str'
 
 test_max = max(-100, 0)
 print(test_max)
